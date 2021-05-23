@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ChipDemo</string>
+    <string name="planets">Planets</string>
 </resources>

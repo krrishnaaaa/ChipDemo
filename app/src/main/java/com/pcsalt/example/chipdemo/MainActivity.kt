@@ -33,9 +33,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val adapter = ArrayAdapter(this@MainActivity, R.layout.item_drop_down, planetList)
-        binding.tietTags.setAdapter(adapter)
+        binding.tietPlanets.setAdapter(adapter)
 
-        binding.tietTags.setOnItemClickListener { parent, _, position, _ ->
+        binding.tietPlanets.setOnItemClickListener { parent, _, position, _ ->
             val selectedPlanet = parent.getItemAtPosition(position) as String
             if (selectedPlanets.contains(selectedPlanet)) {
                 Toast.makeText(
