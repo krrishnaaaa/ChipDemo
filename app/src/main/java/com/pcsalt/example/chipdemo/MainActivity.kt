@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 addPlanetChip(selectedPlanet)
             }
+            binding.tietPlanets.setText("")
         }
     }
 
