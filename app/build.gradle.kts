@@ -36,5 +36,6 @@ dependencies {
   implementation(libs.appcompat)
   implementation(libs.material)
   implementation(libs.constraintlayout)
+  testImplementation("junit:junit:4.13.2")
 
 }
